@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "bloc-core": {
+      "signature": "e04e5b21f24d38a0e168acf99a02e6ef",
+      "file": true
+    }
+  }
+}

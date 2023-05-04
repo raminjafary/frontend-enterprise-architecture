@@ -1,0 +1,17 @@
+{
+  "name": "clean-micro-frontend-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc --watch",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  }
+}

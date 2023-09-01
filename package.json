@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "frontend-clean-ploc-architecture",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "repository": "https://github.com/raminjafary/clean-micro-frontend-starter",
+  "description": "Frontend Clean Architecture Based on BLOC pattern",
+  "scripts": {
+    "prepare": "husky install",
+    "core:build": "pnpm --filter @frontend-clean-ploc-architecture/core build",
+    "core:start": "pnpm --filter @frontend-clean-ploc-architecture/core start",
+    "core:test": "pnpm --filter @frontend-clean-ploc-architecture/core test",
+    "format": "prettier \"packages/**/src/**/*.{js,jsx,json,css,ts,tsx,vue}\" --check",
+    "format:fix": "prettier \"packages/**/src/**/*.{js,jsx,json,css,ts,tsx,vue}\" --write",
+    "lint": "eslint packages/*/src/ --ext ts,tsx,vue",
+    "lint:fix": "eslint packages/*/src/ --ext ts,tsx,vue --fix",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "pnpm": "8.6.12"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.11",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "jsdom": "^22.1.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  }
+}

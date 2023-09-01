@@ -1,0 +1,11 @@
+node_modules
+.nuxt
+dist
+.gitlab-ci.yml
+.git
+.storybook
+.githooks
+.idea
+.gitlab
+docs
+yarn-error.log

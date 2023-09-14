@@ -1,16 +1,16 @@
 {
-  "private": true,
-  "type": "module",
-  "name": "@frontend-clean-ploc-architecture/core",
-  "version": "1.0.0",
-  "description": "The core logic",
-  "main": "build/index.js",
-  "scripts": {
-    "build": "tsc --build",
-    "start": "tsc --watch",
-    "test": "echo \"test\""
-  },
-  "keywords": [],
-  "author": "Ramin Jafary <raminjafary1993@gmail.com>",
-  "license": "ISC"
+    "private": true,
+    "type": "module",
+    "name": "@frontend/core",
+    "version": "1.0.0",
+    "description": "The core logic",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc --build",
+        "start": "tsc --watch",
+        "test": "echo \"test\""
+    },
+    "keywords": [],
+    "author": "Ramin Jafary <raminjafary1993@gmail.com>",
+    "license": "ISC"
 }

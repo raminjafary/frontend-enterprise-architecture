@@ -15,6 +15,11 @@
         "nuxt:dev": "pnpm --filter @frontend/nuxt dev",
         "nuxt:generate": "pnpm --filter @frontend/nuxt generate",
         "nuxt:preview": "pnpm --filter @frontend/nuxt preview",
+        "next:dev": "pnpm --filter @frontend/next dev",
+        "next:build": "pnpm --filter @frontend/next build",
+        "next:start": "pnpm --filter @frontend/next start",
+        "next:lint": "pnpm --filter @frontend/next lint",
+
         "format": "prettier --ignore-path .gitignore --check .",
         "format:fix": "prettier  --ignore-path .gitignore --write --list-different .",
         "lint": "eslint packages/*/src/ --ignore-path .gitignore --ext ts,tsx,vue",

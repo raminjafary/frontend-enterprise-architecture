@@ -9,8 +9,5 @@
         "build": "tsc --build",
         "start": "tsc --watch",
         "test": "echo \"test\""
-    },
-    "keywords": [],
-    "author": "Ramin Jafary <raminjafary1993@gmail.com>",
-    "license": "ISC"
+    }
 }

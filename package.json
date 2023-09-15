@@ -3,8 +3,9 @@
     "name": "frontend",
     "version": "0.0.0",
     "type": "module",
-    "repository": "https://github.com/raminjafary/clean-micro-frontend-starter",
-    "description": "Frontend Clean Architecture Based on BLOC pattern",
+    "repository": "https://github.com/raminjafary/clean-bloc-architecture-frontend.git",
+    "description": "A Monorepo of Clean-BLoC Architecture Pattern (Nuxt, Next)",
+    "author": "Ramin Jafary <raminjafary1993@gmail.com>",
     "scripts": {
         "prepare": "husky install",
         "core:build": "pnpm --filter @frontend/core build",

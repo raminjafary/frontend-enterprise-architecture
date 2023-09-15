@@ -1,11 +1,11 @@
 import React from "react";
 import CartContent from "./CartContent";
 import { useCartBloc } from "../app/page";
-import { useBlocState } from "../common/useBlocState";
+import { usePlocState } from "../common/usePlocState";
 
 const CartDrawer: React.FC = () => {
     const ploc = useCartBloc();
-    const state = useBlocState(ploc);
+    const state = usePlocState(ploc);
 
     const jsx = state.open ? (
         <div>

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { inject } from "vue";
 import { CartPloc } from "core";
-import { useBlocState } from "../common/useBlocState";
+import { usePlocState } from "../common/usePlocState";
 
 const cartBloc = inject<CartPloc>("cartBloc") as CartPloc;
-const state = useBlocState(cartBloc);
+const state = usePlocState(cartBloc);
 
 const handleOpenCart = () => {
     cartBloc?.openCart();

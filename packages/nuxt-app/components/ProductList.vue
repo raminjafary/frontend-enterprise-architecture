@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { dependenciesLocator } from "core";
-import { useBlocState } from "../common/useBlocState";
+import { usePlocState } from "../common/usePlocState";
 import ProductItem from "./ProductItem.vue";
 
 const props = defineProps({
@@ -12,7 +12,7 @@ const props = defineProps({
 });
 
 const ploc = dependenciesLocator.provideProductsPloc();
-const state = useBlocState(ploc);
+const state = usePlocState(ploc);
 
 onMounted(() => {
     ploc.search(props.searchTerm);

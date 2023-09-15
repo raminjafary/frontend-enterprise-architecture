@@ -2,11 +2,11 @@ import React from "react";
 import CartContentItem from "./CartContentItem";
 import { CartItemState } from "core";
 import { useCartBloc } from "../app/page";
-import { useBlocState } from "../common/useBlocState";
+import { usePlocState } from "../common/usePlocState";
 
 const CartContent: React.FC = () => {
     const ploc = useCartBloc();
-    const state = useBlocState(ploc);
+    const state = usePlocState(ploc);
 
     const cartItems = (items: CartItemState[]) => (
         <li>

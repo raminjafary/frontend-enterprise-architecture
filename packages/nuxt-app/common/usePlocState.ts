@@ -1,7 +1,7 @@
 import { Ploc } from "core";
 import { DeepReadonly, readonly, Ref } from "vue";
 
-export function useBlocState<S>(bloc: Ploc<S>): DeepReadonly<Ref<S>> {
+export function usePlocState<S>(bloc: Ploc<S>): DeepReadonly<Ref<S>> {
     const state = ref(bloc.state) as Ref<S>;
 
     const stateSubscription = (newState: S) => {

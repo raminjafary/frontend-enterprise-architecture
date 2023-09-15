@@ -1,10 +1,10 @@
 "use client";
 import { useCartBloc } from "@/app/page";
-import { useBlocState } from "@/common/useBlocState";
+import { usePlocState } from "@/common/usePlocState";
 
 const AppBar: React.FC = () => {
     const ploc = useCartBloc();
-    const state = useBlocState(ploc);
+    const state = usePlocState(ploc);
 
     const totalItems = state.kind === "UpdatedCartState" ? state.totalItems : 0;
 

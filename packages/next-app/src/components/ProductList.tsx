@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 import ProductItem from "./ProductItem";
 import { dependenciesLocator } from "core";
-import { useBlocState } from "../common/useBlocState";
+import { usePlocState } from "../common/usePlocState";
 
 const ProductList: React.FC = () => {
     const ploc = dependenciesLocator.provideProductsPloc();
-    const state = useBlocState(ploc);
+    const state = usePlocState(ploc);
 
     useEffect(() => {
         const searchProducts = async (filter: string) => {

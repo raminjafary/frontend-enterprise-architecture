@@ -3,7 +3,7 @@
 import { Ploc } from "core";
 import { useEffect, useState } from "react";
 
-export function useBlocState<S>(bloc: Ploc<S>) {
+export function usePlocState<S>(bloc: Ploc<S>) {
     const [state, setState] = useState(bloc.state);
 
     useEffect(() => {

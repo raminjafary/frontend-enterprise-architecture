@@ -1,4 +1,4 @@
-# Clean Architecture and BLoC pattern for separating business logic from UI frameworks
+# An scalable, sacrificial and modular frontend architecture. The architecture design makes It easy be turned into micro-fronted when requirements arise. (WIP)
 
 ## Clean Architecture
 

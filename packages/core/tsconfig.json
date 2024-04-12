@@ -1,14 +1,12 @@
 {
-    "extends": "../../tsconfig.json",
-    "compilerOptions": {
-        "outDir": "./build",
-        "rootDir": "./src",
-        "declaration": true,
-        "sourceMap": true,
-        "module": "ESNext",
-        "incremental": false,
-        "allowJs": false
-    },
-    "include": ["./src/**/*"],
-    "exclude": ["node_modules", "**/*.spec.ts"]
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "declaration": true,
+    "module": "ESNext",
+    "incremental": false,
+    "allowJs": false
+  },
+  "include": ["cart/**/*", "products/**/*", "common/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

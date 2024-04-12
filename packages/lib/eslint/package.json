@@ -1,0 +1,12 @@
+{
+  "name": "@lib/eslint-config-custom",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript-eslint": "^7.5.0",
+    "globals": "^15.0.0"
+  }
+}

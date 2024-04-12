@@ -1,1 +1,3 @@
-export default { extends: ["@commitlint/config-conventional"] };
+import { commitlintConfig } from '@lib/commit-lint-release';
+
+export default commitlintConfig;

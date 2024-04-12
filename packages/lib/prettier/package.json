@@ -1,0 +1,9 @@
+{
+  "name": "@lib/prettier-config-custom",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
+}

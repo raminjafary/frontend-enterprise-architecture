@@ -1,0 +1,12 @@
+[production]
+> 0.5% 
+last 2 version
+not dead
+
+[staging]
+> 1%
+last 2 versions
+not dead
+
+[ssr]
+node 20

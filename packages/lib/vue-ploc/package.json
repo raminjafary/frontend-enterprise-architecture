@@ -1,0 +1,7 @@
+{
+  "name": "@lib/vue-ploc",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@core/common": "workspace:*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@main/product",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@core/cart": "workspace:*",
+    "@core/product": "workspace:*",
+    "@core/common": "workspace:*",
+    "@lib/vue-ploc": "workspace:*"
+  }
+}

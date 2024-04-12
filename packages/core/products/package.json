@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@core/product",
+  "version": "0.0.0",
+  "description": "product module",
+  "main": "src/index.ts"
+}

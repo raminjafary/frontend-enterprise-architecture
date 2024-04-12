@@ -1,0 +1,28 @@
+{
+  "name": "@frontend/app-mobile",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "analyze": "nuxi analyze",
+    "update:browserslist-db": "update-browserslist-db",
+    "browserslist": "browserslist"
+  },
+  "dependencies": {
+    "@core/common": "workspace:*",
+    "@main/cart": "workspace:*",
+    "@main/product": "workspace:*"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.1.5",
+    "@nuxt/eslint": "^0.3.1",
+    "nuxt": "^3.11.2"
+  }
+}

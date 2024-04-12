@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "../../.eslintrc.cjs",
-    "next/core-web-vitals"
-]
-}
